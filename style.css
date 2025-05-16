@@ -1,0 +1,86 @@
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(0, 28%, 32%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body {
+  margin-top: 100px;
+  background-color: rgb(0, 0, 0);
+}
+.card {
+  box-shadow: 4px 15% 0 rgb(218, 212, 212);
+  transition: 0.3s;
+  width: 15%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(238, 231, 231, 0.966);
+  width: 20%;
+}
+.container {
+  padding: 4px 16px;
+  width: 50%;
+}
+p {
+  color: rgb(255, 255, 255);
+}
+h4 {
+  color: white;
+}
+.bg-width {
+  width: 70%;
+  height: 70%;
+  max-width: 250px;
+  max-height: 220px;
+}
+
+#bg-1 {
+  position: absolute;
+  top: 2%;
+  left: -2%;
+  background: hsl(0, 17%, 19%);
+  filter: blur(150px);
+}
+#bg-2 {
+  position: absolute;
+  bottom: 2%;
+  right: -2%;
+  background: rgb(65, 33, 33);
+  filter: blur(150px);
+}
+h1 {
+  color: aliceblue;
+  margin-left: 42.5%;
+}
+.grid {
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: repeat(1, 4fr);
+  margin: 10%;
+  gap: 50px;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
