@@ -84,14 +84,3 @@ h1 {
   flex-direction: row;
   gap: 20px;
 }
-
-#userId {
-  margin-top: 20px;
-  padding: 15px;
-  background-color: #ffffff;
-  border-left: 5px solid #007acc;
-  box-shadow: 0 2px 5px rgb(214, 207, 207);
-  font-size: 18px;
-  color: #007acc;
-  max-width: 400px;
-}
