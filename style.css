@@ -84,3 +84,6 @@ h1 {
   flex-direction: row;
   gap: 20px;
 }
+div {
+  color: aliceblue;
+}
