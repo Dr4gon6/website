@@ -9,4 +9,6 @@ fetch("https://api.dqvid.dev/v1/users/769301819562000437")
         " , username " +
         json.data.discord_user.username
     );
+
+    console.log(dc.innerHTML);
   });
